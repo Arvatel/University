@@ -1,0 +1,3 @@
+/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework1/cmake-build-debug/CMakeFiles/PSS_Homework1.dir
+/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework1/cmake-build-debug/CMakeFiles/edit_cache.dir

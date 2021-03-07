@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PSS_Homework1.dir/main.cpp.o  -o PSS_Homework1 
