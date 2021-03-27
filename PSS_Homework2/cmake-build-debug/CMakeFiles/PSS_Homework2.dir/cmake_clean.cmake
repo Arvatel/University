@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PSS_Homework2.dir/Person.cpp.o"
   "CMakeFiles/PSS_Homework2.dir/Room.cpp.o"
+  "CMakeFiles/PSS_Homework2.dir/level.cpp.o"
   "CMakeFiles/PSS_Homework2.dir/main.cpp.o"
   "PSS_Homework2"
   "PSS_Homework2.pdb"

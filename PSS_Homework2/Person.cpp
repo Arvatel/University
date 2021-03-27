@@ -1,21 +1,55 @@
-//#include "Person.h"
-#include "level.cpp"
-#include <string>
-#include <utility>
+#include "Person.h"
+#include "level.h"
 #include <iostream>
 
 using namespace std;
 
-class Person {
-    string name;
-    string surname;
-    int age;
+/** functions for creating different types of people **/
+void Person::createGuest() {
+    type = GUEST;
+    access = WHITE;
+}
 
-    personType type;
-    accessLevel access;
+void Person::createStudent() {
+    type = STUDENT;
+    access = YELLOW;
+}
 
-    Person () = default;;
-    Person (string n, string s, int a = 0, personType t = GUEST) :
+void Person::createLabEmployee() {
+    type = LAB_EMPLOYEE;
+    access = YELLOW;
+}
+
+void Person::createProfessor() {
+    type = PROFESSOR;
+    access = RED;
+}
+
+void Person::createDirector() {
+    type = DIRECTOR;
+    access = BLACK;
+}
+
+void Person::createAdmin() {
+    type = ADMIN;
+    access = GOD;
+}
+
+void Person:: printPersonData() {
+    cout << "Name: " << name << "\nSurname: " << surname << "\nAge: " << age << endl;
+    cout << "Position: " << stringPersonType(type) << endl;
+    cout << "Access level: " << stringAccessLevel(access) << endl;
+}
+
+string Person:: stringPerson() {
+    return stringPersonType(type) + " " + name + " " + surname;
+}
+
+accessLevel Person::getAccess() {
+    return access;
+}
+
+Person::Person (string n, string s, int a = 0, personType t = GUEST) :
         name(std::move(n)), surname(std::move(s)), age(a) {
 
         switch(t){
@@ -41,43 +75,3 @@ class Person {
                 createGuest();
         }
     }
-
-    /** functions for creating different types of people **/
-    void createGuest() {
-        type = GUEST;
-        access = WHITE;
-    }
-
-    void createStudent() {
-        type = STUDENT;
-        access = YELLOW;
-    }
-
-    void createLabEmployee() {
-        type = LAB_EMPLOYEE;
-        access = YELLOW;
-    }
-
-    void createProfessor() {
-        type = PROFESSOR;
-        access = RED;
-    }
-
-    void createDirector() {
-        type = DIRECTOR;
-        access = BLACK;
-    }
-
-    void createAdmin() {
-        type = ADMIN;
-        access = GOD;
-    }
-
-
-    void printPerson() {
-
-        cout << "Name: " << name << "\nSurname: " << surname << "\nAge: " << age << endl;
-
-    }
-
-};

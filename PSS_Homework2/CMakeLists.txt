@@ -3,4 +3,4 @@ project(PSS_Homework2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PSS_Homework2 main.cpp Room.cpp Person.cpp)
+add_executable(PSS_Homework2 main.cpp Room.cpp Person.cpp interaction.h Person.h Room.h level.h level.cpp)
