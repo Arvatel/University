@@ -45,4 +45,7 @@ enum roomType {
 /** function for printing string from enum */
 std::string stringRoomType(roomType t);
 
+/** function for comparing enum and string */
+bool compareAccess(accessLevel access, std::string lvl);
+
 #endif //PSS_HOMEWORK2_LEVEL_H

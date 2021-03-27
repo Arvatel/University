@@ -96,6 +96,9 @@
 		<Unit filename="/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/Room.h">
 			<Option target="PSS_Homework2"/>
 		</Unit>
+		<Unit filename="/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/interaction.cpp">
+			<Option target="PSS_Homework2"/>
+		</Unit>
 		<Unit filename="/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/interaction.h">
 			<Option target="PSS_Homework2"/>
 		</Unit>

@@ -52,26 +52,35 @@ accessLevel Person::getAccess() {
 Person::Person (string n, string s, int a = 0, personType t = GUEST) :
         name(std::move(n)), surname(std::move(s)), age(a) {
 
-        switch(t){
-            case GUEST:
-                createGuest();
-                break;
-            case STUDENT:
-                createStudent();
-                break;
-            case LAB_EMPLOYEE:
-                createLabEmployee();
-                break;
-            case PROFESSOR:
-                createProfessor();
-                break;
-            case DIRECTOR:
-                createDirector();
-                break;
-            case ADMIN:
-                createAdmin();
-                break;
-            default:
-                createGuest();
-        }
+    switch(t){
+        case GUEST:
+            createGuest();
+            break;
+        case STUDENT:
+            createStudent();
+            break;
+        case LAB_EMPLOYEE:
+            createLabEmployee();
+            break;
+        case PROFESSOR:
+            createProfessor();
+            break;
+        case DIRECTOR:
+            createDirector();
+            break;
+        case ADMIN:
+            createAdmin();
+            break;
+        default:
+            createGuest();
     }
+}
+
+void Person::changeAccess(Person admin, accessLevel lvl){
+    if (compareAccess(admin.getAccess(), "Admin")) {
+        access = lvl;
+        cout << "access level successfully changed to level: " << stringAccessLevel(access) << endl;
+        return;
+    }
+    cout << "Person does not have a permission to change access level. Current access level: " << stringAccessLevel(access) << endl;
+}

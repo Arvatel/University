@@ -27,6 +27,7 @@ public:
     void printPersonData();
     string stringPerson();
     accessLevel getAccess();
+    void changeAccess(Person admin, accessLevel lvl);
 
     Person (string n, string s, int a, personType t);
 };

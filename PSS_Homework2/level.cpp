@@ -58,3 +58,7 @@ std::string stringRoomType(roomType t){
             return "";
     }
 }
+
+bool compareAccess(accessLevel access, std::string lvl){
+    return stringAccessLevel(access) == lvl;
+}

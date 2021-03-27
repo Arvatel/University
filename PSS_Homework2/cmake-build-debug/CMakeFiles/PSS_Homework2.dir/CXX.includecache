@@ -16,6 +16,14 @@ string
 level.h
 /media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/level.h
 
+/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/interaction.cpp
+iostream
+-
+Person.h
+/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/Person.h
+Room.h
+/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/Room.h
+
 /media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/interaction.h
 Person.h
 /media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/Person.h
@@ -34,6 +42,8 @@ string
 
 /media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/main.cpp
 iostream
+-
+vector
 -
 Person.h
 /media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/Person.h

@@ -7,6 +7,7 @@ class Room {
     int number;
     roomType type;
     accessLevel access;
+    bool Emergency = false;
 
     void createClassroom();
     void createLectureRoom();

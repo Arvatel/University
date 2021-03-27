@@ -1,14 +1,22 @@
 #include <iostream>
+#include <vector>
 #include "Person.h"
 #include "Room.h"
 #include "interaction.h"
 
 int main() {
-    Person person = Person("Name", "Surname", 20, STUDENT);
+    vector<Person> people;
+    vector<Room> rooms;
 
-    Room room = Room(108, LECTURE_ROOM);
+    people.emplace_back("Name", "Surname", 20, STUDENT);
+    people.emplace_back("Admin", "", 20, ADMIN);
 
-    openRoom(person, room);
+
+    rooms.emplace_back(Room(208, LECTURE_ROOM));
+
+    openRoom(people[0], rooms[0]);
+    people[0].changeAccess(people[1], RED);
+    openRoom(people[0], rooms[0]);
 
     return 0;
 }

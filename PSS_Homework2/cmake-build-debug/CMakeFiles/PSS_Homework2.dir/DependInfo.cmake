@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/Person.cpp" "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/cmake-build-debug/CMakeFiles/PSS_Homework2.dir/Person.cpp.o"
   "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/Room.cpp" "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/cmake-build-debug/CMakeFiles/PSS_Homework2.dir/Room.cpp.o"
+  "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/interaction.cpp" "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/cmake-build-debug/CMakeFiles/PSS_Homework2.dir/interaction.cpp.o"
   "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/level.cpp" "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/cmake-build-debug/CMakeFiles/PSS_Homework2.dir/level.cpp.o"
   "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/main.cpp" "/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework2/cmake-build-debug/CMakeFiles/PSS_Homework2.dir/main.cpp.o"
   )

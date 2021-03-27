@@ -9,6 +9,11 @@ CMakeFiles/PSS_Homework2.dir/Room.cpp.o: ../Room.cpp
 CMakeFiles/PSS_Homework2.dir/Room.cpp.o: ../Room.h
 CMakeFiles/PSS_Homework2.dir/Room.cpp.o: ../level.h
 
+CMakeFiles/PSS_Homework2.dir/interaction.cpp.o: ../Person.h
+CMakeFiles/PSS_Homework2.dir/interaction.cpp.o: ../Room.h
+CMakeFiles/PSS_Homework2.dir/interaction.cpp.o: ../interaction.cpp
+CMakeFiles/PSS_Homework2.dir/interaction.cpp.o: ../level.h
+
 CMakeFiles/PSS_Homework2.dir/level.cpp.o: ../level.cpp
 CMakeFiles/PSS_Homework2.dir/level.cpp.o: ../level.h
 
