@@ -9,6 +9,12 @@ CMakeFiles/PSS_Homework2.dir/Room.cpp.o: ../Room.cpp
 CMakeFiles/PSS_Homework2.dir/Room.cpp.o: ../Room.h
 CMakeFiles/PSS_Homework2.dir/Room.cpp.o: ../level.h
 
+CMakeFiles/PSS_Homework2.dir/University.cpp.o: ../Person.h
+CMakeFiles/PSS_Homework2.dir/University.cpp.o: ../Room.h
+CMakeFiles/PSS_Homework2.dir/University.cpp.o: ../University.cpp
+CMakeFiles/PSS_Homework2.dir/University.cpp.o: ../University.h
+CMakeFiles/PSS_Homework2.dir/University.cpp.o: ../level.h
+
 CMakeFiles/PSS_Homework2.dir/interaction.cpp.o: ../Person.h
 CMakeFiles/PSS_Homework2.dir/interaction.cpp.o: ../Room.h
 CMakeFiles/PSS_Homework2.dir/interaction.cpp.o: ../interaction.cpp
@@ -19,7 +25,7 @@ CMakeFiles/PSS_Homework2.dir/level.cpp.o: ../level.h
 
 CMakeFiles/PSS_Homework2.dir/main.cpp.o: ../Person.h
 CMakeFiles/PSS_Homework2.dir/main.cpp.o: ../Room.h
-CMakeFiles/PSS_Homework2.dir/main.cpp.o: ../interaction.h
+CMakeFiles/PSS_Homework2.dir/main.cpp.o: ../University.h
 CMakeFiles/PSS_Homework2.dir/main.cpp.o: ../level.h
 CMakeFiles/PSS_Homework2.dir/main.cpp.o: ../main.cpp
 

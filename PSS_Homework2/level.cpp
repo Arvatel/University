@@ -59,6 +59,28 @@ std::string stringRoomType(roomType t){
     }
 }
 
+/** function for printing string from enum */
+std::string stringMaritalStatus(maritalStatus t){
+    switch (t) {
+        case FREE:
+            return "Free";
+        case ACTIVELY_LOOKING:
+            return "Actively looking";
+        case HAS_BOYFRIEND:
+            return "Has a boyfriend";
+        case HAS_GIRLFRIEND:
+            return "Has a girlfriend";
+        case ITS_COMPLICATED:
+            return "It's complicated situation";
+        case MARRIED:
+            return "Married";
+        case IN_DEPRESSION:
+            return "Don't ask about it please";
+        default:
+            return "";
+    }
+}
+
 bool compareAccess(accessLevel access, std::string lvl){
     return stringAccessLevel(access) == lvl;
 }

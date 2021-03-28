@@ -38,6 +38,7 @@ void Person::createAdmin() {
 void Person:: printPersonData() {
     cout << "Name: " << name << "\nSurname: " << surname << "\nAge: " << age << endl;
     cout << "Position: " << stringPersonType(type) << endl;
+    cout << "Marital status: " << stringMaritalStatus(status) << endl;
     cout << "Access level: " << stringAccessLevel(access) << endl;
 }
 
@@ -49,8 +50,8 @@ accessLevel Person::getAccess() {
     return access;
 }
 
-Person::Person (string n, string s, int a = 0, personType t = GUEST) :
-        name(std::move(n)), surname(std::move(s)), age(a) {
+Person::Person (string n, string s, int a = 0, personType t = GUEST, maritalStatus stat = FREE) :
+        name(std::move(n)), surname(std::move(s)), age(a), status(stat) {
 
     switch(t){
         case GUEST:
@@ -76,11 +77,15 @@ Person::Person (string n, string s, int a = 0, personType t = GUEST) :
     }
 }
 
+/** Function for changing access - only admin can change it
+ * you need to send admin to the person for it */
 void Person::changeAccess(Person admin, accessLevel lvl){
     if (compareAccess(admin.getAccess(), "Admin")) {
         access = lvl;
-        cout << "access level successfully changed to level: " << stringAccessLevel(access) << endl;
+        cout << "Access level successfully changed to level: " << stringAccessLevel(access) << " \nBy: " <<
+        admin.stringPerson() << endl;
         return;
     }
-    cout << "Person does not have a permission to change access level. Current access level: " << stringAccessLevel(access) << endl;
+    cout << admin.stringPerson() << " does not have a permission to change access level. Current access level: "
+    << stringAccessLevel(access) << endl;
 }

@@ -45,6 +45,20 @@ enum roomType {
 /** function for printing string from enum */
 std::string stringRoomType(roomType t);
 
+/** enum with marital status of person*/
+enum maritalStatus{
+    FREE,
+    ACTIVELY_LOOKING,
+    HAS_BOYFRIEND,
+    HAS_GIRLFRIEND,
+    ITS_COMPLICATED,
+    MARRIED,
+    IN_DEPRESSION
+};
+
+/** function for printing string from enum */
+std::string stringMaritalStatus(maritalStatus t);
+
 /** function for comparing enum and string */
 bool compareAccess(accessLevel access, std::string lvl);
 

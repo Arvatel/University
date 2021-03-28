@@ -10,6 +10,7 @@ class Person {
     string name;
     string surname;
     int age;
+    maritalStatus status;
 
     personType type;
     accessLevel access;
@@ -29,7 +30,7 @@ public:
     accessLevel getAccess();
     void changeAccess(Person admin, accessLevel lvl);
 
-    Person (string n, string s, int a, personType t);
+    Person (string n, string s, int a, personType t, maritalStatus stat);
 };
 
 #endif //PSS_HOMEWORK2_PERSON_H

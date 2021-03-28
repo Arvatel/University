@@ -177,6 +177,33 @@ Room.cpp.s:
 	$(MAKE) -f CMakeFiles/PSS_Homework2.dir/build.make CMakeFiles/PSS_Homework2.dir/Room.cpp.s
 .PHONY : Room.cpp.s
 
+University.o: University.cpp.o
+
+.PHONY : University.o
+
+# target to build an object file
+University.cpp.o:
+	$(MAKE) -f CMakeFiles/PSS_Homework2.dir/build.make CMakeFiles/PSS_Homework2.dir/University.cpp.o
+.PHONY : University.cpp.o
+
+University.i: University.cpp.i
+
+.PHONY : University.i
+
+# target to preprocess a source file
+University.cpp.i:
+	$(MAKE) -f CMakeFiles/PSS_Homework2.dir/build.make CMakeFiles/PSS_Homework2.dir/University.cpp.i
+.PHONY : University.cpp.i
+
+University.s: University.cpp.s
+
+.PHONY : University.s
+
+# target to generate assembly for a file
+University.cpp.s:
+	$(MAKE) -f CMakeFiles/PSS_Homework2.dir/build.make CMakeFiles/PSS_Homework2.dir/University.cpp.s
+.PHONY : University.cpp.s
+
 interaction.o: interaction.cpp.o
 
 .PHONY : interaction.o
@@ -273,6 +300,9 @@ help:
 	@echo "... Room.o"
 	@echo "... Room.i"
 	@echo "... Room.s"
+	@echo "... University.o"
+	@echo "... University.i"
+	@echo "... University.s"
 	@echo "... interaction.o"
 	@echo "... interaction.i"
 	@echo "... interaction.s"
