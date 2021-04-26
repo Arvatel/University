@@ -1,0 +1,10 @@
+#ifndef PSS_HOMEWORK4_DRIVERGATEWAY_H
+#define PSS_HOMEWORK4_DRIVERGATEWAY_H
+
+
+class DriverGateway {
+
+};
+
+
+#endif //PSS_HOMEWORK4_DRIVERGATEWAY_H

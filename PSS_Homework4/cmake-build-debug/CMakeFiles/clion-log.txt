@@ -1,0 +1,4 @@
+/media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/Programs/Clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/nastya/ef36ec52-8b82-45dd-be27-3739013e6282/University/PSS/S21/University/PSS_Homework4/cmake-build-debug
